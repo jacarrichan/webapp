@@ -14,8 +14,16 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="icon-logo"></div>
+    <!-- data-comp-path  指明要加载app-test这个module-->
+    <div class="js-comp" data-comp-path="app-test">
+        app-test content
+    </div>
+    <!-- data-comp-path  指明要加载app这个module-->
+    <div class="js-comp" data-comp-path="app">
+        app content
+    </div>    
     <script src="/scripts/vendor.js"></script>
     <script src="/scripts/app.js"></script>
-    <script>require("app")()</script>
+    <script>require("pokeball/helpers/component").initialize();</script>
   </body>
 </html>

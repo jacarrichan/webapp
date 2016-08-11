@@ -1,0 +1,19 @@
+{{#partial "title"}}{{{block "realTitle"}}}{{/partial}}
+{{#partial "body"}}
+{{inject "common/header"}}
+<div class="front-main">
+  <div class="sidebar-outer">
+    <div class="body-outer">
+      <div class="container-components">
+        {{{block "realBody"}}}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="front-footer">
+  <div class="copyright">
+    <span>Copyright © JacarriChan</span>
+  </div>
+</div>
+{{/partial}}
+{{> layout}}

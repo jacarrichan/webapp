@@ -42,10 +42,10 @@ notification: true
 bundles:
   jquery.js:
     version: 1.10.2
-    url: http://code.jquery.com/jquery-1.10.2.js
+    url: http://libs.baidu.com/jquery/1.10.0/jquery.js
   handlebars.js:
     version: 1.0.0
-    url: https://raw.github.com/wycats/handlebars.js/1.0.0/dist/handlebars.runtime.js
+    url: https://raw.githubusercontent.com/wycats/handlebars.js/1.0.0/dist/handlebars.runtime.js
 environments:
   production:
     revision:
